@@ -4,7 +4,7 @@ function setup() {
 }
 
 function draw() {
-   fill(255, 0, 0);
+   fill(random (255), random (0), random (0));
   strokeWeight (8);
   quad( 0, 0, width/2.3, 0, width/2.3, height/2.3, 0, height/2.3);
   
@@ -18,7 +18,7 @@ function draw() {
   strokeWeight (15);
   line(0, height/1.5, 800, height/1.5);
 
-  fill(255, 230, 0);
+  fill(random (255), random (230), random (0));
   noStroke();
   quad( 0, height/1.5, width/8.3, height/1.5, width/8.3, height, 0, height); 
   
